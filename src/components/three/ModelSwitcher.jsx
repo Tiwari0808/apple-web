@@ -32,12 +32,12 @@ const ModelSwitcher = ({ scale, isMobile }) => {
 
     const showLargeMacbook = scale >= 0.05 && scale <= 0.08;
     const controlsConfig = {
-        // snap: '',
-        // speed: 3,
-        // zoom: 1,
+        snap: false,
+        speed: 2,
+        zoom: 1,
         
-        // azimuth: [-Infinity, Infinity],
-        // config: { mass: 1, tension: 0, friction: 26 }
+        azimuth: [-Infinity, Infinity],
+        config: { mass: 1, tension: 0, friction: 26 }
     }
 
     useGSAP(() => {
