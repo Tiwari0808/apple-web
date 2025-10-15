@@ -12,10 +12,10 @@ const Hero = () => {
 
             <button className='mx-auto bg-[#0071E3] text-white rounded-full px-5 py-2'>Buy</button>
 
-            <p className='text-center'>From $1599 or $133/mo for 12 months</p>
+            <p className='text-center'>From ₹169900.00 or ₹13325.00 for 12 months</p>
 
         </section>
     )
 }
 
-export default Hero
+export default Hero;
